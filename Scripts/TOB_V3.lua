@@ -36,8 +36,8 @@ last = nil
 -----customizable part-----
 
 colors = {
-	--breasts=char.Torso.BrickColor;
-	breasts=BrickColor.new("White");
+	breasts=char.Torso.BrickColor;
+	--breasts=BrickColor.new("White");
 	glans=BrickColor.new("Medium red"); --default: BrickColor.new("Medium red");
 	vagina=BrickColor.new("Medium red"); --default: BrickColor.new("Medium red");
 	shaft=BrickColor.new("Terra Cotta"); --default BrickColor.new("Terra Cotta");
@@ -47,11 +47,11 @@ colors = {
 
 torslock = true --if you want the accessories to lock onto the torso or not, reccomended setting is true.
 
-noshirt = false
+noshirt = true
 nopants = true
 
-nonips = true --would be best if you have noshirt set to true. same goes reverse.
-noboobs = false --no breasts
+nonips = false --would be best if you have noshirt set to true. same goes reverse.
+noboobs = true --no breasts
 genitalia = 2 --0 is none, 1 is vagina, 2 is penis.
 
 -----dont change anything below unless you know what youre doing!----- 
