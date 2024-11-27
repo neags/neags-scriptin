@@ -6,7 +6,7 @@ credits to neags on github, noshirt false, nonips true, and custom color as the 
 
 https://www.roblox.com/catalog/14241413891/capsule-head (capsuleAccessory)
 https://www.roblox.com/catalog/12162984985/Big-Pearl-Earrings-Pink (PearlAccessory)
-https://www.roblox.com/catalog/17331373966/WHITE-STERN-FACE (Accessory (MeshPartAccessory))
+https://www.roblox.com/catalog/17590777054/Dizzy-Head-Hex-Addon (Accessory (DizzyHat))
 https://www.roblox.com/catalog/13769586807/Black-Fluffy-Tail (cat tail)
 
 please check if there arent any other hats with any matching names unless you want to be stupid.
@@ -192,7 +192,7 @@ end
 
 -----actual workings-----
 
-vagI = char:FindFirstChild("Accessory (MeshPartAccessory)")
+vagI = char:FindFirstChild("Accessory (DizzyHat)")
 
 shaft = char:FindFirstChild("cat tail")
 
